@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    background-color: #e8be6c;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+img {
+    max-width: 100%;
+    height: auto; /* serve a eliminare il margin-bottom che le immagini hanno di default */
+}
+
+main, footer {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+header img {
+   align-items: left;
+    padding: 20px;
+    max-width: 50px;
+   
+}
+
+    
+section.hero {
+    background:rgba(224, 114, 4, 0.6);/* colore impostato con RGB e con la trasparenza, che si può notare sopratutto quando cambia il colore di sfondo */
+    text-align: center;
+    size-adjust: 190%;
+    
+}
+
+
+ 
+
+    
+
+section.hero h1 {
+    margin:0;
+    padding: 60px 30px;
+   
+    font-size: 50px;
+    color: rgba(255,255,255,0.9);
+}
+
+main {
+    margin: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+main div.card {
+    background: #f9f1dc;
+    border-radius: 20px;
+    text-align: center;
+}
+
+main div.card img {
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    width: 90%;
+    filter: drop-shadow(0px 9px 8px rgba(71, 36, 36, 0.25));
+
+}
+
+main div img {
+    border-radius: 10px;
+}
+main div.card1{
+    background: #f9f1dc;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+main div.card1 img{
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    width: 60%;
+    filter: drop-shadow(0px 9px 8px rgba(71, 36, 36, 0.25));
+
+
+}
+main div.card1 p {
+    margin: 0;
+    padding: 15px 30px 0px 20px;
+    font-size: 14px;
+    line-height: 1.5; /* l'interlinea del testo */
+}
+
+main div.card1 h2 {
+    margin: 0;
+    padding: 27px 20px 4px 20px;
+    font-size: 23px;
+}
+main div.card2{
+    background: #f9f1dc;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+main div.card2 img{
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    width: 60%;
+    filter: drop-shadow(0px 9px 8px rgba(71, 36, 36, 0.25));
+
+
+}
+main div.card2 p {
+    margin: 0;
+    padding: 10px 20px 17px 20px;
+    font-size: 14px;
+    line-height: 1.5; /* l'interlinea del testo */
+}
+
+main div.card2 h2 {
+    margin: 0;
+    padding: 27px 20px 4px 20px;
+    font-size: 23px;
+}
+main div.card3{
+    background: #f9f1dc;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+main div.card3 img{
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    width: 50%;
+    filter: drop-shadow(0px 9px 8px rgba(71, 36, 36, 0.25));
+
+
+}
+main div.card3 p {
+    margin: 0;
+    padding: 8px 20px 17px 20px;
+    font-size: 14px;
+    line-height: 1.5; /* l'interlinea del testo */
+}
+
+main div.card3 h2 {
+    margin: 0;
+    padding: 60px 20px 4px 20px;
+    font-size: 23px;
+}
+main div.card4{
+    background: #f9f1dc;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+main div.card4 img{
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    padding: 4%;
+    width: 60%;
+    filter: drop-shadow(0px 9px 8px rgba(71, 36, 36, 0.25));
+
+
+}
+main div.card4 p {
+    margin: 0;
+    padding: 8px 20px 1px 20px;
+    font-size: 14px;
+    line-height: 1.5; /* l'interlinea del testo */
+}
+
+main div.card4 h2 {
+    margin: 0;
+    padding: 86px 20px 4px 20px;
+    font-size: 23px;
+}
+main div.card5{
+    background: #f9f1dc;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+main div.card5 img{
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    padding: 4%;
+    width: 50%;
+    filter: drop-shadow(0px 9px 8px rgba(71, 36, 36, 0.25));
+
+
+}
+main div.card5 p {
+    margin: 0;
+    padding: 8px 20px 17px 20px;
+    font-size: 14px;
+    line-height: 1.5; /* l'interlinea del testo */
+}
+
+main div.card5 h2 {
+    margin: 0;
+    padding: 60px 20px 4px 20px;
+    font-size: 23px;
+}
+
+main div.card p {
+    margin: 0;
+    padding: 0 20px 20px 20px;
+    font-size: 14px;
+    line-height: 1.5; /* l'interlinea del testo */
+}
+
+main div.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap:20px;
+}
+
+footer {
+    text-align: center;
+    padding: 0;
+}
+
+footer p {
+    border-top:1px solid rgba(0,0,0,0.1);
+    margin: 0;
+    padding: 20px 0;
+    font-size: 14px;
+    color:#444
+}
+
+ header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
